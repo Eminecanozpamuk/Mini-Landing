@@ -1,0 +1,40 @@
+.item {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: var(--card-bg);
+}
+
+.trigger {
+  width: 100%;
+  padding: 16px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: none;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hover – light */
+.trigger:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Hover – dark */
+:global([data-theme="dark"]) .trigger:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Klavye erişimi */
+.trigger:focus {
+  outline: 3px solid var(--border-color);
+}
+
+.content {
+  padding: 16px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-top: 1px solid var(--border-color);
+}
