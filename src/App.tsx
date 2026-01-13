@@ -4,7 +4,8 @@ import Card from "./components/Card/Card";
 import AccordionItem from "./components/Accordion/AccordionItem";
 import ContactForm from "./components/Form/ContactForm";
 import "./App.css";
-import kediEvi from "./assets/kedi-evi.jpg";
+import kediEvi from "./assets/kedi-evi.webp";
+
 
 type SectionType = "features" | "faq" | "contact";
 
